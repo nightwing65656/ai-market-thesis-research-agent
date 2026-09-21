@@ -10,13 +10,13 @@
 
 
 
-\- Agentic AI and Multi-Agent Systems
+\- Agentic AI and multi-agent systems
 
-\- LLM Applications, RAG and AI Governance
+\- LLM applications, retrieval-augmented generation (RAG) and AI governance
 
-\- Financial-Services AI, AML, Fraud Detection and Research Workflows
+\- Financial-services AI, AML, fraud detection and research workflows
 
-\- Enterprise Automation and Responsible AI Implementation
+\- Enterprise automation and responsible AI implementation
 
 
 
