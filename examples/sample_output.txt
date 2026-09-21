@@ -1,0 +1,85 @@
+ILLUSTRATIVE SAMPLE RUN — BUNDLED SAMPLE DATA
+
+This artifact is an illustrative run generated from the repository's bundled sample dataset. It is not live market data, investment advice, or a recommendation to buy or sell any security. The project is not affiliated with, endorsed by, or sponsored by any company mentioned. Commercial use requires a paid license; see LICENSE and DISCLAIMER.md.
+
+Command:
+python -m src.main --tickers BLK BX
+
+Output:
+
+{
+  "BLK": {
+    "ticker": "BLK",
+    "fundamental": {
+      "agent": "fundamental",
+      "ticker": "BLK",
+      "quote": {
+        "ticker": "BLK",
+        "price": 1069.78,
+        "market_cap": 165810551100,
+        "year_low": 917.39,
+        "year_high": 1219.94
+      },
+      "pe_ratio": 25.57,
+      "ai_exposure_notes": "Publicly disclosed: operates an internal AI research division and participates in an industry AI-compute financing consortium.",
+      "verdict": "pe_in_line_with_history"
+    },
+    "sentiment": {
+      "agent": "sentiment",
+      "ticker": "BLK",
+      "headlines": [
+        "Asset manager expands AI research into portfolio construction (public filing/press release).",
+        "Asset manager joins multi-firm AI compute infrastructure financing platform.",
+        "Asset manager's public 2026 outlook names AI a defining market force."
+      ],
+      "sentiment_score": 1,
+      "sentiment_label": "positive"
+    },
+    "valuation": {
+      "agent": "valuation",
+      "ticker": "BLK",
+      "position_in_52w_range_pct": 50.4,
+      "pe_verdict": "pe_in_line_with_history",
+      "sentiment_label": "positive",
+      "research_label": "mid_range",
+      "disclaimer": "Informational research output only. Not investment advice."
+    }
+  },
+  "BX": {
+    "ticker": "BX",
+    "fundamental": {
+      "agent": "fundamental",
+      "ticker": "BX",
+      "quote": {
+        "ticker": "BX",
+        "price": 124.96,
+        "market_cap": 150950782787,
+        "year_low": 101.73,
+        "year_high": 189.88
+      },
+      "pe_ratio": 27.77,
+      "ai_exposure_notes": "Publicly disclosed: management stated a majority of its top-appreciating quarterly investments were AI-linked.",
+      "verdict": "pe_in_line_with_history"
+    },
+    "sentiment": {
+      "agent": "sentiment",
+      "ticker": "BX",
+      "headlines": [
+        "Alternative asset manager reports quarterly earnings beat citing AI-linked investment gains.",
+        "Alternative asset manager announces enterprise AI services joint venture (public press release).",
+        "Alternative asset manager reports record assets under management, citing data-center investments."
+      ],
+      "sentiment_score": 3,
+      "sentiment_label": "positive"
+    },
+    "valuation": {
+      "agent": "valuation",
+      "ticker": "BX",
+      "position_in_52w_range_pct": 26.4,
+      "pe_verdict": "pe_in_line_with_history",
+      "sentiment_label": "positive",
+      "research_label": "near_52w_low",
+      "disclaimer": "Informational research output only. Not investment advice."
+    }
+  }
+}
