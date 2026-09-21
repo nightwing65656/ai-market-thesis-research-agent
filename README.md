@@ -104,6 +104,10 @@ GitHub Issues or reach out directly via
 └── README.md
 ```
 
+## About the Author
+
+See [ABOUT.md](ABOUT.md) for the author profile, licensing philosophy and professional contact channels.
+
 ## Copyright
 
 Copyright (c) 2026 Dheeraj Krishna Kumar. All rights reserved except as
