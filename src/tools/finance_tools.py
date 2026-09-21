@@ -24,20 +24,36 @@ def _load_sample_data() -> dict[str, Any]:
 
 
 def get_quote(ticker: str) -> dict[str, Any]:
+    sample = _load_sample_data().get(ticker, {})
+    sample_quote = sample.get("quote", {})
+
     try:
         import yfinance as yf
 
         info = yf.Ticker(ticker).fast_info
-        return {
+        live_quote = {
             "ticker": ticker,
             "price": info.get("last_price"),
             "market_cap": info.get("market_cap"),
             "year_low": info.get("year_low"),
             "year_high": info.get("year_high"),
         }
-    except (ImportError, AttributeError, KeyError, TypeError, ValueError, OSError):
-        sample = _load_sample_data().get(ticker, {})
-        return {"ticker": ticker, **sample.get("quote", {})}
+
+        required_fields = ("price", "market_cap", "year_low", "year_high")
+        if all(live_quote.get(field) is not None for field in required_fields):
+            return live_quote
+
+    except (
+        ImportError,
+        AttributeError,
+        KeyError,
+        TypeError,
+        ValueError,
+        OSError,
+    ):
+        pass
+
+    return {"ticker": ticker, **sample_quote}
 
 
 def get_fundamentals(ticker: str) -> dict[str, Any]:
