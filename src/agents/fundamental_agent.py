@@ -2,7 +2,7 @@
 Fundamental Agent: quantifies publicly disclosed AI-linked exposure in
 fundamentals. Produces descriptive labels only (not recommendations).
 """
-from src.tools.finance_tools import get_quote, get_fundamentals
+from src.tools.finance_tools import get_fundamentals, get_quote
 
 
 def run_fundamental_agent(ticker: str) -> dict:

@@ -31,7 +31,7 @@ def valuation_node(state: ThesisState) -> ThesisState:
 
 def build_graph():
     try:
-        from langgraph.graph import StateGraph, END
+        from langgraph.graph import END, StateGraph
     except ImportError:
         return None
 
