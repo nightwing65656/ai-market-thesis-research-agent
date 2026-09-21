@@ -9,6 +9,7 @@ module for a provider whose commercial terms cover your use case (e.g.
 Twelve Data, IEX Cloud, Polygon.io). See DISCLAIMER.md.
 """
 from __future__ import annotations
+
 import json
 from pathlib import Path
 from typing import Any
@@ -34,7 +35,7 @@ def get_quote(ticker: str) -> dict[str, Any]:
             "year_low": info.get("year_low"),
             "year_high": info.get("year_high"),
         }
-    except Exception:
+    except (ImportError, AttributeError, KeyError, TypeError, ValueError, OSError):
         sample = _load_sample_data().get(ticker, {})
         return {"ticker": ticker, **sample.get("quote", {})}
 
