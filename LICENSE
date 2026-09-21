@@ -1,0 +1,57 @@
+# License: Free for Non-Commercial Use / Paid Commercial License Required
+
+This project is **source-available**, not permissively "open source" in the
+OSI sense. It uses a dual-license structure modeled on common patterns like
+the Business Source License and PolyForm Noncommercial.
+
+## 1. Non-Commercial License (Free, No Royalty)
+
+Permission is granted, free of charge, for personal, educational, academic
+research and internal non-commercial evaluation use of this software and
+associated documentation (the "Software"), including the rights to use,
+copy, modify and merge the Software, subject to:
+
+- This license notice and DISCLAIMER.md must be included in all copies or
+  substantial portions of the Software.
+- The Software may NOT be used to generate revenue, embedded in a
+  commercial product or paid service, used within a for-profit
+  organization's production systems or resold/relicensed, without a
+  Commercial License (Section 2).
+
+## 2. Commercial License (royalty required)
+
+Any use of the Software by, or on behalf of, a for-profit entity in a
+production, revenue-generating, client-facing or internally cost-saving
+business capacity requires a separate **Commercial License Agreement**
+with the copyright holder, Dheeraj Krishna Kumar, including a royalty payable
+to the copyright holder. Indicative structure (final terms negotiated per
+licensee):
+
+| Term | Default structure |
+|---|---|
+| Royalty basis | Percentage of net revenue attributable to the licensed product OR flat annual fee |
+| Suggested royalty rate | 3-8% of attributable net revenue (negotiable) |
+| Reporting | Licensee provides quarterly usage/revenue reports |
+| Term | Annual, renewable, with audit rights for the licensor |
+| Scope | Defined per licensee (internal use, redistribution, white-label, etc.) |
+
+To request a Commercial License, see [CONTACT.md](CONTACT.md). Until a
+signed Commercial License Agreement is in place, no commercial rights are
+granted and unauthorized commercial use constitutes copyright infringement
+and breach of this license.
+
+## 3. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+## 4. Important legal note
+
+This is a template, not a lawyer-drafted, jurisdiction-specific contract. 
+Royalty terms are only enforceable via a signed agreement with each
+commercial licensee. For real revenue-bearing licensing, have a lawyer
+review this before enforcing it and consider registering your copyright.
+
+Copyright (c) 2026 Dheeraj Krishna Kumar. All rights reserved except as
+expressly granted above.

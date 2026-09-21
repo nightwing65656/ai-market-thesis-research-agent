@@ -1,0 +1,56 @@
+name: Commercial License Request
+description: Request a paid Commercial License to use this project in a business/production context.
+title: "[Commercial License] "
+labels: ["commercial-license"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in a Commercial License for this project.
+        This software is free for personal/non-commercial use only -- any
+        business, production, or revenue-generating use requires a signed
+        Commercial License Agreement (see LICENSE). Fill out the fields
+        below and we'll follow up to negotiate terms.
+  - type: input
+    id: company
+    attributes:
+      label: Company / Organization name
+      placeholder: Acme Capital Inc.
+    validations:
+      required: true
+  - type: input
+    id: contact_email
+    attributes:
+      label: Best contact email
+      placeholder: you@company.com
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Intended use case
+      description: How do you plan to use this project? (internal tool, client-facing product, resale, white-label, etc.)
+    validations:
+      required: true
+  - type: dropdown
+    id: scale
+    attributes:
+      label: Expected scale
+      options:
+        - Internal use only (single team)
+        - Internal use only (company-wide)
+        - Client-facing product
+        - Resale / white-label
+        - Other (explain in use case)
+    validations:
+      required: true
+  - type: input
+    id: est_revenue
+    attributes:
+      label: Estimated annual revenue attributable to this use (rough estimate is fine)
+      placeholder: e.g. $50,000-$200,000/year
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else we should know?
+      placeholder: Timeline, budget constraints, specific license terms you need, etc.

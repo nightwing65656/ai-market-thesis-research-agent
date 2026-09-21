@@ -1,0 +1,36 @@
+{
+  "BLK": {
+    "quote": {
+      "price": 1069.78,
+      "market_cap": 165810551100,
+      "year_low": 917.39,
+      "year_high": 1219.94
+    },
+    "fundamentals": {
+      "pe_ratio": 25.57,
+      "notes": "Publicly disclosed: operates an internal AI research division and participates in an industry AI-compute financing consortium."
+    },
+    "headlines": [
+      "Asset manager expands AI research into portfolio construction (public filing/press release).",
+      "Asset manager joins multi-firm AI compute infrastructure financing platform.",
+      "Asset manager's public 2026 outlook names AI a defining market force."
+    ]
+  },
+  "BX": {
+    "quote": {
+      "price": 124.96,
+      "market_cap": 150950782787,
+      "year_low": 101.73,
+      "year_high": 189.88
+    },
+    "fundamentals": {
+      "pe_ratio": 27.77,
+      "notes": "Publicly disclosed: management stated a majority of its top-appreciating quarterly investments were AI-linked."
+    },
+    "headlines": [
+      "Alternative asset manager reports quarterly earnings beat citing AI-linked investment gains.",
+      "Alternative asset manager announces enterprise AI services joint venture (public press release).",
+      "Alternative asset manager reports record assets under management, citing data-center investments."
+    ]
+  }
+}
